@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="/files/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="registration form">
+      <header>Signup</header>
+      <form action="#">
+        <input type="text" placeholder="Enter your Name">
+        <input type="email" placeholder="Enter your Email" id="email">
+        <input type="password" placeholder="Enter your password" id="password">
+        <input type="button" class="button" value="Signup" id="createAccBtn" >
+      </form>
+      <div class="signup">
+        <span class="signup">Already have an account?
+         <label for="check" >Login</label>
+        </span>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/files/firebase.mjs"></script>
+  <script type="module" src="/files/XsignUp.js"></script>
+</body>
+</html>
